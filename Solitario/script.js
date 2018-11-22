@@ -129,7 +129,7 @@ var findPreviousImage = ev.target;
 
 function createImages ( nameInFile, where, cssImage) {
   var elem = document.createElement("img");
-  var fileName = "/Users/Carolina/Desktop/WD/Solitario/Images/JPEG/" + nameInFile + ".jpg";
+  var fileName = "https://DianaBaRo.github.io/Solitario/Images/JPEG/" + nameInFile + ".jpg";
     elem.setAttribute("src", fileName);
      elem.setAttribute("class", cssImage);
       elem.setAttribute("id", nameInFile);
