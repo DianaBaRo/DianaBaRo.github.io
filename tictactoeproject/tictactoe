@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'pry'
-require_relative '../lib/tic_tac_toe.rb'
+require_relative 'https://DianaBaRo.github.io/tictactoeproject/tic_tac_toe.rb'
 
 new_game = TicTacToe.new
 
